@@ -41,7 +41,6 @@ Listado de ejercicios propuestos durante el programa
 7. Crea una variable llamada "nombre" y asígnale tu nombre. Luego, utiliza console.log para mostrar el mensaje "¡Hola,
    [tu nombre]!" en la consola del navegador.
 8. Crea una variable llamada "nombre" y asígnale tu nombre. Luego, utiliza alert para mostrar el mensaje "¡Hola, [tu nombre]!".
-
 9. Utiliza prompt y haz la siguiente pregunta: ¿Cuál es el lenguaje de programación que más te gusta?. Luego, almacena la
    respuesta en una variable y muestra la respuesta en la consola del navegador.
 10. Crea una variable llamada "valor1" y otra llamada "valor2", asignándoles valores numéricos de tu elección. Luego, realiza
