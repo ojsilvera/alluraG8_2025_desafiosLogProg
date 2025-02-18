@@ -1,38 +1,35 @@
-let numeroSecreto = numeroAleatorio();
-let intentos = 0;
-let maxIntentos = 0;
-let maxRange = 0;
-let numeroUsuario = 0;
-
-const cantiddaIntentos = document.getElementById('intentosUser');
-const valorMaxRange = document.getElementById('maxRange');
-const valorNumeroUsuario = document.getElementById('numeroUser');
+let numeroSecreto =0 ;
+let contador = 0;
+let maxIntentosUser = 0;
+let valorMaxRange = 0;
+let valorNumeroUsuario = 0;
 
 function cargarTexto(elemento, texto) {
     document.querySelector(elemento).innerHTML = texto;
     return;
 }
 
-function intentoUsuario(){
-    console.log('Maximo numero de Intentos: ' + cantiddaIntentos.value);
-    console.log('Maximo rango: ' + valorMaxRange.value);
-    console.log('Numero usuario: ' + valorNumeroUsuario.value);
-    console.log('Numero Secreto: ' + nnumeroAleatorio());
+function intentoUsuario() {
+
+    maxIntentosUser = parseInt(document.getElementById('maxIntentosUser').value);
+    valorMaxRange = parseInt(document.getElementById('maxRange').value);
+    valorNumeroUsuario = parseInt(document.getElementById('numeroUser').value);
+    numeroSecreto = numeroAleatorio(valorMaxRange);
+
+    console.log('------------------------------------');
+    console.log('Maximo numero de Intentos: ' + maxIntentosUser);
+    console.log('Maximo rango: ' + valorMaxRange);
+    console.log('Numero usuario: ' + valorNumeroUsuario);
+    console.log('Numero Secreto: ' + numeroSecreto);
     console.log('------------------------------------');
     return;
 };
 
-function numeroAleatorio() {
-    return Math.floor(Math.random() * 100) + 1;
+function numeroAleatorio(valorMaxRange) {
+    return Math.floor(Math.random() * valorMaxRange) + 1;
 }
 
 function resetGame(){
-    numeroSecreto = numeroAleatorio();
-    intentos = 0;
-    maxIntentos = 0;
-    maxRange = 0;
-    numeroUsuario = 0;
-    intentoUsuario();
     return;
 }
 
