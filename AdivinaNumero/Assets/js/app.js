@@ -17,6 +17,7 @@ function intentoUsuario(){
     console.log('Maximo numero de Intentos: ' + cantiddaIntentos.value);
     console.log('Maximo rango: ' + valorMaxRange.value);
     console.log('Numero usuario: ' + valorNumeroUsuario.value);
+    console.log('Numero Secreto: ' + nnumeroAleatorio());
     console.log('------------------------------------');
     return;
 };
