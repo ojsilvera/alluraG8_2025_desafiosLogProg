@@ -21,9 +21,13 @@
                 <!--se llena desde js funcion llenar texto-->
             </p>
             <input class="section__input--user" type="number" id="intentosUser">
+            <p class="section__p_numeroUser">
+                <!--se llena desde js funcion llenar texto-->
+            </p>
+            <input class="section__input--user" type="number" id="numeroUser">
         </section>
         <section class="main__section--containerButton">
-                <button class="section__button--newGame" id="newGame">
+                <button class="section__button--newGame" id="newGame" onclick="resetGame();">
                     Juego nuevo
                 </button>
                 <button class="section__button--ejecutar" onclick="intentoUsuario();" id="playButton">
