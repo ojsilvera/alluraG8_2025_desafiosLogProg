@@ -87,20 +87,22 @@ Listado de ejercicios propuestos durante el programa:
    1.2 dos botones, 'aceptar' 'volver.'
    1.3 debe mostrar un mensaje con las reglas del juego guardadas, numero de intentos y rango maximo
    1.4 en esta vista el header debe mostrar el nombre del juego y la fecha del mismo
-   1.5 debe tener un inout para ingresar el nombre del jugador y el titulo del mismo 'Ingresa aqui tu nombre de ju7gador'
+   1.5 debe tener un input para ingresar el nombre del jugador y el titulo del mismo 'Ingresa aqui tu nombre de jugador'
 
 2. La vista del juego debe contener:
 
-   2.1 un input donde el usuario introdusca el numero
+   2.1 un input donde el usuario introduzca el numero, que representa su intento por adivinar el numero secreto
    2.2 este input debe tener un titulo 'Digita tu numero'
-   2.3 un parrafo para mostrar si acertaste o no
-   2.4 un parrafo para mostrar el numero de intentos restantes
+   2.3 un parrafo para mostrar si acertaste o no.
+   2.4 un parrafo para mostrar el numero de intentos restantes.
+   2.5 un header que muestre el nombre del jugador, la fecha en que esta jugando y el nombre del juego.
 
 3. si el usuario acierta:
 
    2.1  mostrar el numero secreto
    2.2  Mostrar en cuantos intentos fue realizado
-   2.3  mostrar un mensaje cuando el usuario acierta el numero
+   2.3  mostrar un mensaje cuando el usuario acierta el numero 'Felicidades {nombreUsuario} has ganado'
+   2.5  un header que muestre el nombre del jugador, la fecha en que esta jugando y el nombre del juego.
    2.4  finalizar el juego.
 
 4. Si el usuario no acierta:
@@ -112,3 +114,5 @@ Listado de ejercicios propuestos durante el programa:
         2.4.1 mostrar el mensa "Te has quedado sin intentos, el numero secreto era: {numero secreto}, suerte a la proxima"
 
 5. todas la vistas deben contener un header y un footer, en el footer se muestra descripcion de quien desarrollo el codigo.
+
+6. actualizaciones futuras, persistir el listado de jugadores que participan y el numero de intentos en qu elo logaron.
