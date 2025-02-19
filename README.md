@@ -70,7 +70,7 @@ Listado de ejercicios propuestos durante el programa:
 5. Crea una función que muestre una alerta con el mensaje: "Yo amo JS" siempre que se presione el botón "Alerta".
 6. Al hacer clic en el botón "suma", pide 2 números y muestra el resultado de la suma en una alerta.
 
-## Desafio_5:
+## Desafio_5
 
 1. Crear una función que muestre "¡Hola, mundo!" en la consola.
 2. Crear una función que reciba un nombre como parámetro y muestre "¡Hola, [nombre]!" en la consola.
@@ -81,7 +81,7 @@ Listado de ejercicios propuestos durante el programa:
 
 ## ToDo Adivina el numero
 
-1. Adicionar boton de configurar 'reglas del juego', esta seria la vista inicial, debe tener:
+1. Adicionar vista de 'configurar reglas del juego', esta seria la vista inicial, debe tener:
 
    1.1 Un boton al presionarlo el se debe mostrar una vista con los inputs de numero de intentos, rango maximo y sus titulos
    1.2 dos botones, 'aceptar' 'volver.'
@@ -112,6 +112,7 @@ Listado de ejercicios propuestos durante el programa:
    3.3  limpiar el input con el numero que ingresaa el usuario
    3.4  sí sobrepása el numero de intentos
         2.4.1 mostrar el mensa "Te has quedado sin intentos, el numero secreto era: {numero secreto}, suerte a la proxima"
+   3.5  Debe mostrar si el numero propuesto es mayor o menor que el numero secreto.
 
 5. todas la vistas deben contener un header y un footer, en el footer se muestra descripcion de quien desarrollo el codigo.
 
