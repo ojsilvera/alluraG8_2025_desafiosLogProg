@@ -2,7 +2,7 @@
 
 Los ejemplos propuestos durante el curso de introduccion a logica de programacion, nivel princiante en Java scrip
 
-Listado de ejercicios propuestos durante el programa
+Listado de ejercicios propuestos durante el programa:
 
 ## Desafio_1
 
@@ -69,3 +69,46 @@ Listado de ejercicios propuestos durante el programa
    Luego, muestra una alerta con el mensaje, concatenando la respuesta con el texto: "Estuve en {ciudad} y me acordé de ti".
 5. Crea una función que muestre una alerta con el mensaje: "Yo amo JS" siempre que se presione el botón "Alerta".
 6. Al hacer clic en el botón "suma", pide 2 números y muestra el resultado de la suma en una alerta.
+
+## Desafio_5:
+
+1. Crear una función que muestre "¡Hola, mundo!" en la consola.
+2. Crear una función que reciba un nombre como parámetro y muestre "¡Hola, [nombre]!" en la consola.
+3. Crear una función que reciba un número como parámetro y devuelva el doble de ese número.
+4. Crear una función que reciba tres números como parámetros y devuelva su promedio.
+5. Crear una función que reciba dos números como parámetros y devuelva el mayor de ellos.
+6. Crear una función que reciba un número como parámetro y devuelva el resultado de multiplicar ese número por sí mismo.
+
+## ToDo Adivina el numero
+
+1. Adicionar boton de configurar 'reglas del juego', esta seria la vista inicial, debe tener:
+
+   1.1 Un boton al presionarlo el se debe mostrar una vista con los inputs de numero de intentos, rango maximo y sus titulos
+   1.2 dos botones, 'aceptar' 'volver.'
+   1.3 debe mostrar un mensaje con las reglas del juego guardadas, numero de intentos y rango maximo
+   1.4 en esta vista el header debe mostrar el nombre del juego y la fecha del mismo
+   1.5 debe tener un inout para ingresar el nombre del jugador y el titulo del mismo 'Ingresa aqui tu nombre de ju7gador'
+
+2. La vista del juego debe contener:
+
+   2.1 un input donde el usuario introdusca el numero
+   2.2 este input debe tener un titulo 'Digita tu numero'
+   2.3 un parrafo para mostrar si acertaste o no
+   2.4 un parrafo para mostrar el numero de intentos restantes
+
+3. si el usuario acierta:
+
+   2.1  mostrar el numero secreto
+   2.2  Mostrar en cuantos intentos fue realizado
+   2.3  mostrar un mensaje cuando el usuario acierta el numero
+   2.4  finalizar el juego.
+
+4. Si el usuario no acierta:
+
+   3.1  Mostrar el mensaje "el numero seleccionado es: {numeroUsuario} y no es el numero secreto"
+   3.2  mostrar el mensaje "el numero de intentos restantes es: {numero de intentos}"
+   3.3  limpiar el input con el numero que ingresaa el usuario
+   3.4  sí sobrepása el numero de intentos
+        2.4.1 mostrar el mensa "Te has quedado sin intentos, el numero secreto era: {numero secreto}, suerte a la proxima"
+
+5. todas la vistas deben contener un header y un footer, en el footer se muestra descripcion de quien desarrollo el codigo.
