@@ -14,6 +14,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 0.5em;
 }
 
 .body__main--container{
@@ -36,6 +38,11 @@ body{
     font-family: 'Krona One', sans-serif;
     font-size: 2em;
     color: #014fad;
+}
+
+.header__p--indicacionesSystem{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
 }
 
 .main__section--containerInput{

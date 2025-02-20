@@ -5,13 +5,22 @@ let valorMaxRange = 0;
 let valorNumeroUsuario = 0;
 
 
-function inicialconditions(){
-    document.getElementById('maxIntentosUser').style.display = 'none';
-    document.getElementById('maxRange').style.display = 'none';
+function initializeConditions(){
+
+    //en la vista inicial se muetran las siguientes lineas
+    cargarTexto('.section__p_intentosUser', 'Elije el numero maximo de intentos');
+    document.getElementById('maxIntentosUser').style.display = 'block';
+    cargarTexto('.section__p--maxRangeUser', 'Elije el numero mayor para el rango a adivinar');
+    document.getElementById('maxRange').style.display = 'block';
+    cargarTexto('.header__p--indicacionesSystem', 'Elije las reglas del juego, rango y numero de intentos');
+    //en la vista inicial no se muetran las siguientes lineas
+    document.getElementById('startGame').style.display = 'none';
+    document.getElementById('newGame').style.display = 'none';
+    document.getElementById('numeroUser').style.display = 'none';
     return;
 }
-//cargarTexto('.section__p_intentosUser', 'Elije el numero maximo de intentos');
-//cargarTexto('.section__p--maxRangeUser', 'Elije el numero mayor para el rango a adivinar');
+
+
 
 // cargarTexto('.section__p_numeroUser', 'Digita tu numero');
 
@@ -45,4 +54,4 @@ function resetGame(){
     return;
 }
 
-inicialconditions();
+initializeConditions();
