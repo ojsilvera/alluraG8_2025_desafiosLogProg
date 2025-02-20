@@ -20,6 +20,15 @@ function initializeConditions(){
     return;
 }
 
+function startGame(){
+    cargarTexto('.section__p_numeroUser', 'Digita tu numero');
+    document.getElementById('numeroUser').style.display = 'block';
+    document.getElementById('sendNumber').style.display = 'block';
+    document.getElementById('startGame').style.display = 'none';
+    document.getElementById('newGame').style.display = 'block';
+    return;
+}
+
 function rulesGame(){
     maxIntentosUser = document.getElementById('maxIntentosUser').value;
     valorMaxRange = document.getElementById('maxRange').value;
