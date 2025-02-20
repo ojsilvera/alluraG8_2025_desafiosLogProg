@@ -24,13 +24,13 @@
                 <!--se llena desde js funcion llenar texto-->
             </p>
             <input class="section__input--user" type="number" id="maxIntentosUser">
-            <p class="section__p_numeroUser">
+            <p class="section__p_dataoUser" id="answerUser">
                 <!--se llena desde js funcion llenar texto-->
             </p>
-            <input class="section__input--user" type="number" id="numeroUser">
+            <input class="section__input--user" id="dataUser">
         </section>
         <section class="main__section--containerButton">
-            <button class="section__button--ejecutar" onclick="intentoUsuario();" id="rulesButton">
+            <button class="section__button--ejecutar" id="rulesButton" onclick="rulesGame();" >
                 Reglas del juego
             </button>
             <button class="section__button--newGame" id="newGame" onclick="resetGame();">

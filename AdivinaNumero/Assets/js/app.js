@@ -1,8 +1,8 @@
-let numeroSecreto =0 ;
+let numeroSecreto = 0 ;
 let contador = 0;
 let maxIntentosUser = 0;
 let valorMaxRange = 0;
-let valorNumeroUsuario = 0;
+let dataUser = 0;
 
 
 function initializeConditions(){
@@ -12,15 +12,23 @@ function initializeConditions(){
     document.getElementById('maxIntentosUser').style.display = 'block';
     cargarTexto('.section__p--maxRangeUser', 'Elije el numero mayor para el rango a adivinar');
     document.getElementById('maxRange').style.display = 'block';
-    cargarTexto('.header__p--indicacionesSystem', 'Elije las reglas del juego, rango y numero de intentos');
+    cargarTexto('.section__p_dataoUser', 'Elije tu nombre de jugador');
+    document.getElementById('dataUser').style.display = 'block';
     //en la vista inicial no se muetran las siguientes lineas
     document.getElementById('startGame').style.display = 'none';
     document.getElementById('newGame').style.display = 'none';
-    document.getElementById('numeroUser').style.display = 'none';
     return;
 }
 
-
+function rulesGame(){
+    maxIntentosUser = document.getElementById('maxIntentosUser').value;
+    valorMaxRange = document.getElementById('maxRange').value;
+    dataUser = document.getElementById('dataUser').value;
+    console.log(maxIntentosUser);
+    console.log(valorMaxRange);
+    console.log(dataUser);
+    return;
+}
 
 // cargarTexto('.section__p_numeroUser', 'Digita tu numero');
 
@@ -55,3 +63,4 @@ function resetGame(){
 }
 
 initializeConditions();
+rulesGame();
