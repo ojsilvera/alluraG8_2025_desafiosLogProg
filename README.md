@@ -88,6 +88,8 @@ Listado de ejercicios propuestos durante el programa:
    1.3 debe mostrar un mensaje con las reglas del juego guardadas, numero de intentos y rango maximo
    1.4 en esta vista el header debe mostrar el nombre del juego y la fecha del mismo
    1.5 debe tener un input para ingresar el nombre del jugador y el titulo del mismo 'Ingresa aqui tu nombre de jugador'
+   1.6 para no adicionar mas archivos html, las vistas seran realizadas a traves de mostrar/ocultar elementos de manera
+       dinamica con javascript
 
 2. La vista del juego debe contener:
 

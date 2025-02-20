@@ -4,6 +4,18 @@ let maxIntentosUser = 0;
 let valorMaxRange = 0;
 let valorNumeroUsuario = 0;
 
+
+function inicialconditions(){
+    document.getElementById('maxIntentosUser').style.display = 'none';
+    document.getElementById('maxRange').style.display = 'none';
+    return;
+}
+//cargarTexto('.section__p_intentosUser', 'Elije el numero maximo de intentos');
+//cargarTexto('.section__p--maxRangeUser', 'Elije el numero mayor para el rango a adivinar');
+
+// cargarTexto('.section__p_numeroUser', 'Digita tu numero');
+
+
 function cargarTexto(elemento, texto) {
     document.querySelector(elemento).innerHTML = texto;
     return;
@@ -33,8 +45,4 @@ function resetGame(){
     return;
 }
 
-cargarTexto('h1', 'Juego adivina el numero');
-cargarTexto('.section__p_intentosUser', 'Elije el numero maximo de intentos');
-cargarTexto('.section__p--maxRangeUser', 'Elije el numero mayor para el rango a adivinar');
-cargarTexto('.section__p_numeroUser', 'Digita tu numero');
-
+inicialconditions();
