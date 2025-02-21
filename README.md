@@ -132,4 +132,7 @@ Listado de ejercicios propuestos durante el programa:
 
 5. todas la vistas deben contener un header y un footer, en el footer se muestra descripcion de quien desarrollo el codigo.
 
-6. actualizaciones futuras, persistir el listado de jugadores que participan y el numero de intentos en qu elo logaron.
+6. Almacenar el numero aleatorio y durante tres turnos, no utilizar estos numeros, asi evitamos que los usuarios adivinen
+   consecutivamente los mismos numeros
+
+7. actualizaciones futuras, persistir el listado de jugadores que participan y el numero de intentos en qu elo logaron.
