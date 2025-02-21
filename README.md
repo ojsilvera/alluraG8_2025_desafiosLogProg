@@ -93,6 +93,15 @@ Listado de ejercicios propuestos durante el programa:
    proporcionará como parámetro. Considera [Pi = 3,14].
 6. Crea una función que muestre en pantalla la tabla de multiplicar de un número dado como parámetro.
 
+## Desafio_7
+
+Crear una recreacion del sistema para sorteo de libros:
+
+Contexto: Imagina que eres una persona desarrolladora que trabaja para Buscante, una importante tienda en línea de
+libros. Tu jefe te ha pedido que crees una función para sortear libros a los clientes. El sorteo debe hacerse de manera
+que todos los libros tengan la oportunidad de ser sorteados al menos una vez, y después de eso, el sorteo debe comenzar
+de nuevo. ¿Cómo implementarás el sorteo del libro?
+
 ## ToDo Adivina el numero ----------------------------------------------------------------------------------------------
 
 1. Adicionar vista de 'configurar reglas del juego', esta seria la vista inicial, debe tener:
@@ -132,7 +141,10 @@ Listado de ejercicios propuestos durante el programa:
 
 5. todas la vistas deben contener un header y un footer, en el footer se muestra descripcion de quien desarrollo el codigo.
 
-6. Almacenar el numero aleatorio y durante tres turnos, no utilizar estos numeros, asi evitamos que los usuarios adivinen
-   consecutivamente los mismos numeros
+6. Cuando se inicie un nuevo juego todas la variables deben ser reiniciadas, menos la de que hace referencia al historico
+   del numero secreto.
 
-7. actualizaciones futuras, persistir el listado de jugadores que participan y el numero de intentos en qu elo logaron.
+7. Limitar el mero de juegos totales en los que se almacena el numero secreto para no repetirlo, esto tambien lo puede
+   elegir el jugador a la hora de configurar la ronda inicial.
+
+8. actualizaciones futuras, persistir el listado de jugadores que participan y el numero de intentos en qu elo logaron.
